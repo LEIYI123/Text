@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(245, 241, 241);
+}
+.header_title{
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    box-shadow:0 2px 3px -1px rgb(122, 122, 122);
+}
+.header_title .program_logo{
+    display: inline-block;
+    margin: 0 auto;
+    width: 197px;
+    height: 80px;
+}
+.to_first{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    
+
+}
+.to_first a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #000;
+}
+.content{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+.content_top{
+    width: 49%;
+    height: 160px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5%;
+    margin-top: 50px;
+}
+.content_top_adidas{
+    background-color: #000;
+}
+.content_headeP{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    line-height: 90px;
+    box-sizing: border-box;
+    border: 5px solid white;
+    background-color: #000;
+    position: relative;
+}
+.content_headeP>img{
+    position: absolute;
+    display: block;
+}
+.headeP_Adidas{
+    left: calc(50% - 32px);
+    top: calc(50% - 22px);
+}
+.jianjie{
+    height: 120px;
+    line-height: 120px;
+}
+.tooIn{
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    border: 5px solid white;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    border-radius: 8%;
+}
+.jianjie_adidas{
+    font-size: 20px;
+    color: white;
+}
+.jianjie_kuangwei{
+    font-size: 20px;
+    color: white;
+}
+.tooIn_adidas{
+    color: white;
+}
+.headeP_kuangwei{
+    transform: scale(0.6);
+    left: calc(50% - 80px);
+    top: calc(50% - 7px);
+}
+.content_top_mingchuang{
+    background-color: white;
+    border: 5px solid red;
+}
+.headeP_mingchuang{
+    transform: scale(0.8);
+    left: calc(50% - 29px);
+    top: calc(50% - 40px);
+}
+.the_mingchuang{
+    border: 5px solid red;
+    background-color: white;
+}
+.jianjie_mingchuang{
+    font-size: 20px;
+}
+.tooIn_mingchuang{
+    border: 5px solid red;
+}
+.content_top_biaoma{
+    background-color: #000;
+}
+.headeP_biaoma{
+    width: 100px;
+    height: 50px;
+    top:calc(50% - 29px) ;
+    left: calc(50% - 50px);
+}
+.jianjie_biaoma{
+    font-size: 20px;
+    color: white;
+}
+.tooIn_biaoma{
+    color: white;
+}
+.content_top_Vans{
+    background-color: white;
+    border: 5px solid red;
+}
+.the_Vans{
+    border: 5px solid red;
+    background-color: white;
+}
+.headeP_Vans{
+    width: 100px;
+    height: 35px;
+    top: calc(50% - 17.5px);
+    left: calc(50% - 50px);
+}
+.jianjie_Vans{
+    font-size: 20px;
+}
+.tooIn_Vans{
+    border: 5px solid red;  
+}
+.content_top_tebu{
+    background-color: white;
+    border: 5px solid red;
+}
+.the_tebu{
+    border: 5px solid red;
+    background-color: white;
+}
+.headeP_tebu{
+    width: 70px;
+    height: 70px;
+    top: calc(50% - 35px);
+    left: calc(50% - 35px);
+}
+.jianjie_tebu{
+    font-size: 20px;
+}
+.tooIn_tebu{
+    border: 5px solid red;  
+}
+.content_top_kapa{
+    background-color: white;
+    border: 5px solid red;
+}
+.the_kapa{
+    border: 5px solid red;
+    background-color: white;
+}
+.headeP_kapa{
+    width: 120px;
+    height: 25px;
+    top: calc(50% - 13px);
+    left: calc(50% - 50px);
+}
+.jianjie_kapa{
+    font-size: 20px;
+}
+.tooIn_kapa{
+    border: 5px solid red;  
+}
+
+/* 社区交流 */
+.the_tanchubox{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    background-color: rgb(179, 174, 174);
+    overflow: hidden;
+}
+.the_tanchubox h1{
+    text-align: center;
+}
+.pinlun{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    border-radius: 8%;
+    position: absolute;
+    line-height: 50px;
+    text-align: center;
+    text-align: center;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.pinlun_shanchu{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    line-height: 50px;
+    border-radius: 8%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    cursor: pointer;
+}
+
+.pinlunmsg_box{
+    box-shadow:0 0 10px #000;
+    width: 80%;
+    height: auto;
+    position: absolute;
+    background-color: white;
+    left: 10%;
+    top: 0;
+    transform: translateY(-110%);
+    transition: 1s;
+}
+.the_userbox_box{
+    line-height: 100%;
+    text-align: center;
+    width: 100%;
+    min-height: 200px;
+}
+.pl_dele{
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.pinlunmsg{
+    border: 0;
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 80px;
+    word-wrap: break-word;
+    outline: none;
+    box-sizing: border-box;
+}
+.msg_btn{
+    display: block;
+    margin: 5px auto;
+    background-color: deepskyblue;
+    color: white;
+    outline: none;
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+}
+.the_userbox{
+    width: 70%;
+    height: auto;
+    margin: 20px auto;
+    border: 1px solid black;
+}
+.the_userbox h3{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.user_talk{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    word-wrap: break-word;
+    cursor: pointer;
+}
+.user_talk:hover{
+    text-overflow:inherit;
+    white-space:normal;
+    overflow: visible;
+}

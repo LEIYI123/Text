@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Adidas_index.css">
+    <link rel="stylesheet" href="../index/css/index.css">
+    <title>Adidas</title>
+    <style>
+        @media screen and (max-width: 1200px){
+            .header_title{
+                width: 100%;
+            }
+            .header_bottom_title{
+                width: 100%;
+            }
+            .header_bottom_bottom{
+                width: 100%;
+            }
+            .header_bottom_left{
+                width: 80%;
+            }
+
+            .header_bottom_right{
+                width: auto;
+                position: absolute;
+                right: 0;
+            }
+            .header_newsBox{
+                width: 100%;
+                left: 0;
+            }
+            .newBox_delete{
+                right: 0;
+            }
+            .theBest_pic{
+                width: 100%;
+            }
+            .theBest_place{
+                width: 100%;
+            }
+            .theBest_Ul li{
+                width:6%;
+            }
+            .theBest_Ul img{
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+            .hotWeek_pic{
+                width: 100%;
+            }
+            .hotWeek_salPlace{
+                width: 100%;
+            }
+            .hotWeek_picUl li{
+                width: 6%;
+            }
+            .hotWeek_picUl img{
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+            .icon li{
+                width: 20%;
+            }
+            .footer ul li h5{
+                width:80px;
+                font-size: 15px;
+                box-sizing: border-box;
+
+            }
+        }
+        @media screen and (max-width: 940px){
+            .content_shadow_pic{
+                width: 100%;
+            }
+        }
+        @media screen and (max-width: 770px){
+            .header_bottom{
+                display: none;
+            }
+            .header_bottom2{
+                display: block;
+            }
+            .fnagdajing2{
+                top: 9px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <section class="header">
+
+        <!-- 我们的logo-->
+        <div class="header_title">
+            <img class="program_logo" src="img/Logo.png" alt="">
+            <i class="program_delete"></i>
+        </div>
+
+        <!-- 固定头部的下部分 -->
+        <div class="header_bottom">
+            <!-- header小图标 -->
+            <div class="header_bottom_title" >
+                <ul>
+                    <li class="header_li">
+                        <i class="header_i header_i1"></i>
+                        <a href="../index.html">首页</a>
+                    </li>
+                    <li class="header_li">
+                        <i class="header_i header_i2"></i>
+                        <a href="../Community.html">交流社区</a>
+                    </li>
+                    <li class="header_li">
+                        <i class="header_i header_i3"></i>
+                        <a href="#">购物车</a>
+                    </li>
+                    <li class="header_li">
+                        <i class="header_i header_i4"></i>
+                        <span class="username">用户名</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- adidas图标 -->
+            <div class="header_bottom_bottom">
+                <div class="header_bottom_left">
+                    <img src="img/adidas_logo.png" alt="">
+                    <p class="header_left">
+                        <span class="header_left_pu"><a href="../Puma/commodity.html?brand=Adidas">查看更多商品</a>
+                            <i class="header_left_pu_i"></i>
+                        </span>
+                    </p>
+                </div>
+                <div class="header_bottom_right">
+                    <div class="header_right_input">
+                        <form action="select.jsp" method="post">
+                            <button class="fnagdajing"></button>
+                            <input class="header_right_theInput" type="text" name="" id="" placeholder="搜索你想要">
+                        </form>
+                        <img class="header_bottom_delete" src="img/input_delete.png" alt="">
+                        <i class="header_bottom_bao"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header_bottom header_bottom2">
+            <div class="header_bottom_title2">
+                <div class="header_three header_three1">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div><img class="header_logo" src="img/adidas_logo.png" alt=""></div>
+                <ul>
+                    <li><img class="header_right_logo" src="img/sousuo2.png" alt=""></li>
+                    <li><i class="header_right_logo2"></i></li>
+                </ul>
+
+                <div class="header_xia" style="height:0px;">
+                    <form action="select.jsp" method="post">
+                        <button class="fnagdajing fnagdajing2"></button>
+                        <input class="header_right_theInput header_right_theInput2" type="text" name="" id="" placeholder="搜索你想要">
+                        <img class="header_bottom_delete2" src="img/sahnchu2.png" alt="">
+                    </form>
+                </div>
+                <div class="header_yincang">
+                    <div class="yicangBox_title">
+                        <img src="img/adidas_logo.png" alt=""> 
+                        <div class="header_three header_three2">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <ul>
+                        <li><a href="#">男子</a></li>
+                        <li><a href="#">女子</a></li>
+                        <li><a href="#">儿童</a></li>
+                        <li><a href="#">运动</a></li>
+                        <li><a href="#">精选系列</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- 头部新闻 -->
+    <section class="header_under">
+            <div class="header_newsBox">
+                <div class="newsBox_guodu">
+                    <ul>
+                        <li><a href="#">尊敬的消费者，自2020年5月22日0点起，阿迪达斯中国官方商城将不再提供货到付款的支付方式。给您带来的不便敬请理解！ </a></li>
+                        <li><a href="#">我们将于1月13日至5月24日期间暂停当日达、次晨达及次日达服务，并于5月25日恢复正常。 </a></li>
+                        <li><a href="">尊敬的消费者，自2020年5月22日0点起，阿迪达斯中国官方商城将不再提供货到付款的支付方式。给您带来的不便敬请理解！ </a></li>
+                    </ul>
+                   
+                </div>
+                <i class="newBox_delete"></i>
+            </div>
+    </section>
+
+    <!-- 中心轮播实现 -->
+    <section class="nav_lunbo clearfix">
+        <ul>
+            <li>
+                <img src="img/center_img1.jpg" alt="">
+                <p>
+                    <a href="">立即选购
+                        <span class="iconfont iconfont2">&#xe639;</span>
+                    </a>
+                    <a href="">了解更多
+                        <span class="iconfont iconfont2">&#xe639;</span>
+                    </a>
+                </p>
+            </li>
+            <li>
+                <img src="img/center_img2.jpg" alt="">
+                <p class="nav_lunbo_scendP">
+                    <a href="">立即选购
+                        <span class="iconfont iconfont2">&#xe639;</span>
+                    </a>
+                    <a href="">了解更多
+                        <span class="iconfont iconfont2">&#xe639;</span>
+                    </a>
+                </p>
+            </li>
+            <li>
+                <img src="img/center_img3.jpg" alt="">
+                <p class="nav_lunbo_threeP">
+                    <a  href="">了解更多
+                        <span class="iconfont iconfont2">&#xe639;</span>
+                    </a>
+                </p>
+            </li>
+
+            <li>
+                <img src="img/center_img1.jpg" alt="">
+                <p>
+                    <a href="">立即选购
+                        <span class="iconfont iconfont2">&#xe639;</span>
+                    </a>
+                    <a href="">了解更多
+                        <span class="iconfont iconfont2">&#xe639;</span>
+                    </a>
+                </p>
+            </li>
+        </ul>
+        <span class="nav_lunbo_button nav_lunbo_button_left nav_lunbo_opacity"></span>
+        <span class="nav_lunbo_button nav_lunbo_button_right"></span>
+        
+        <div class="nav_points_box">
+            <span class="nav_points nav_points_opacity"></span>
+            <span class="nav_points"></span>
+            <span class="nav_points"></span>
+        </div>
+    </section>
+
+
+    <!-- 彭于晏 贝克汉姆 -->
+    <section class="content_shadow_box">
+        <div class="content_shadow_left content_shadow_pic">
+            <img src="img/penyuyan.jpg" alt="">
+            <p>
+                <a href="">立即选购
+                    <span class="iconfont iconfont2">&#xe639;</span>
+                </a>
+            </p>
+        </div>
+        <div class="content_shadow_right content_shadow_pic">
+           <img src="img/beikehanmu.jpg" alt="">
+           <p>
+            <a href="">立即选购
+                <span class="iconfont iconfont2">&#xe639;</span>
+            </a>
+        </p>
+        </div>
+    </section>
+
+    <!-- 本周热卖 -->
+    <section class="hotWeek_sal">
+        <div class="hotWeek_salPlace">
+            <h3>本周热卖</h3>
+            <div  class="hotWeek_pic">
+                <ul class="hotWeek_picUl">
+                    <li>
+                        <a  ><img src="https://img.adidas.com.cn/resources/2019/12/30/15776773714291808.jpg?x-oss-process=image/resize,m_pad,w_324,h_324,limit_0,color_ffffff" alt=""></a>
+                        <p>SUPERSTAR 经典运动鞋</p>
+                        <span>¥799</span>
+                    </li>
+                    <li>
+                        <a  ><img src="https://img.adidas.com.cn/resources/2020/3/27/15852982582039863.jpg?x-oss-process=image/resize,m_pad,w_324,h_324,limit_0,color_ffffff" alt=""></a>
+                        <p>ZX 2K BOOST 经典运动鞋</p>
+                        <span>¥799</span>
+                    </li>
+                    <li>
+                        <a  ><img src="https://img.adidas.com.cn/resources/2019/4/15/1555310297500182_324X324.jpg" alt=""></a>
+                        <p>UltraBOOST CLIMA 跑步运动鞋</p>
+                        <span>¥1399</span>
+                    </li>
+                    <li>
+                        <a  ><img src="https://img.adidas.com.cn/resources/2020/3/31/1585636507054971.jpg?x-oss-process=image/resize,m_pad,w_324,h_324,limit_0,color_ffffff" alt=""></a>
+                        <p>ZX 2K BOOST 经典运动鞋</p>
+                        <span>¥1299</span>
+                    </li>
+                    <li>
+                        <a   ><img src="https://img.adidas.com.cn/resources/2019/5/10/15574670310403218_324X324.jpg" alt=""></a>
+                        <p>NIZZA RF 经典运动鞋</p>
+                        <span>¥599</span>
+                    </li>
+                    <li>
+                        <a  ><img src="https://img.adidas.com.cn/resources/2020/4/13/15867618563126915.jpg?x-oss-process=image/resize,m_pad,w_324,h_324,limit_0,color_ffffff" alt=""></a>
+                        <p>NIZZA HI RF 经典运动鞋</p>
+                        <span>¥729</span>
+                    </li>
+                    <li>
+                        <a  ><img src="https://img.adidas.com.cn/resources/2019/2/15/15502210146609184_324X324.jpg" alt=""></a>
+                        <p>STAN SMITH 经典鞋</p>
+                        <span>¥799</span>
+                    </li>
+                    <li>
+                        <a  ><img src="https://img.adidas.com.cn/resources/2020/3/31/15856397158619863.jpg?x-oss-process=image/resize,m_pad,w_324,h_324,limit_0,color_ffffff" alt=""></a>
+                        <p>NITE JOGGER 经典运动鞋</p>
+                        <span>¥1299</span>
+                    </li>
+                    <li>
+                        <a  ><img src="https://img.adidas.com.cn/resources/2020/4/1/15857234302238450.jpg?x-oss-process=image/resize,m_pad,w_324,h_324,limit_0,color_ffffff" alt=""></a>
+                        <p>ZX 2K BOOST 经典运动鞋</p>
+                        <span>¥1199</span>
+                    </li>
+                    <li>
+                        <a  ><img src="https://img.adidas.com.cn/resources/2019/5/23/15585933259297901_324X324.jpg" alt=""></a>
+                        <p>adidas neo GRAND COURT 休闲鞋</p>
+                        <span>¥629</span>
+                    </li>
+                    <li>
+                        <a  ><img src="https://img.adidas.com.cn/resources/2020/5/13/15893678908843070.jpg?x-oss-process=image/resize,m_pad,w_324,h_324,limit_0,color_ffffff" alt=""></a>
+                        <p>PureBOOST GO 跑步鞋</p>
+                        <span>¥1099</span>
+                    </li>
+                    <li>
+                        <a  ><img src="https://img.adidas.com.cn/resources/2020/3/27/15852959382486540.jpg?x-oss-process=image/resize,m_pad,w_324,h_324,limit_0,color_ffffff" alt=""></a>
+                        <p>ZX 750 HD 经典运动鞋</p>
+                        <span>¥829</span>
+                    </li>
+                    <li>
+                        <a  ><img src="https://img.adidas.com.cn/resources/2020/3/25/15851429850257443.jpg?x-oss-process=image/resize,m_pad,w_324,h_324,limit_0,color_ffffff" alt=""></a>
+                        <p>SUPERSTAR WS1 经典运动鞋</p>
+                        <span>¥999</span>
+                    </li>
+                    <li><a  ><img src="https://img.adidas.com.cn/resources/2019/11/1/15726112109308912.jpg?x-oss-process=image/resize,m_pad,w_324,h_324,limit_0,color_ffffff" alt=""></a>
+                        <p>OZWEEGO 经典运动鞋</p>
+                        <span>¥1099</span>
+                    </li>
+                    <li>
+                        <a  ><img src="https://img.adidas.com.cn/resources/2018/4/10/15233589775653338_324X324.jpg" alt=""></a>
+                        <p>NIZZA 经典运动鞋</p>
+                        <span>¥599</span>
+                    </li>
+                    <li><a  ><img src="https://img.adidas.com.cn/resources/2018/11/22/15428871741002615_324X324.jpg" alt=""></a>
+                        <p>STAN SMITH 经典鞋</p>
+                        <span>¥799</span>
+                    </li>
+                </ul>
+                <span class="iconfont HtoLeft hotWeek_span hotWeek_opacity">&#xe612;</span>
+                <span class="iconfont HtoRight hotWeek_span">&#xe611;</span>
+            </div>
+            <div class="hotWeek_points">
+                <span class="hp_span">
+                    <i class="hp_span_i hp_span_opciaty"></i>
+                </span>
+                <span class="hp_span">
+                    <i class="hp_span_i"></i>
+                </span>
+                <span class="hp_span">
+                    <i class="hp_span_i"></i>
+                </span>
+                <span class="hp_span">
+                    <i class="hp_span_i"></i>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 足球明星们-->
+    <section class="footBall_box">
+        <a href=""><img class="footBall_star" src="img/footBall_star.jpg" alt=""></a>
+    </section>
+
+    <!-- 本月主推 -->
+    <section class="theBest_box">
+        <div class="theBest_place">
+            <h3>本月主推</h3>
+            <div  class="theBest_pic">
+                <ul class="theBest_Ul">
+                    <li>
+                        <a href="#"><img src="https://img.adidas.com.cn/resources/2020/3/25/15851436604988027.jpg?x-oss-process=image/resize,m_pad,w_324,h_324,limit_0,color_ffffff" alt=""></a>
+                        <p><a href="#" >SUPERSTAR WS2 经典运动鞋</a></p>
+                        <span>¥999</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="https://img.adidas.com.cn/resources/2020/3/6/15834868837862490.jpg?x-oss-process=image/resize,m_pad,w_324,h_324,limit_0,color_ffffff" alt=""></a>
+                        <p><a href="#" >SUPERSTAR 经典运动鞋</a></p>
+                        <span>¥899</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="https://img.adidas.com.cn/resources/2020/3/18/15845043641465322.jpg?x-oss-process=image/resize,m_pad,w_324,h_324,limit_0,color_ffffff" alt=""></a>
+                        <p><a href="#" >D Rose 10 场上篮球运动鞋</a></p>
+                        <span>¥999</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="https://img.adidas.com.cn/resources/2020/3/30/15855703178144946.jpg?x-oss-process=image/resize,m_pad,w_324,h_324,limit_0,color_ffffff" alt=""></a>
+                        <p><a href="#" >Graphic+ LW WB 运动外套</a></p>
+                        <span>¥999</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="https://img.adidas.com.cn/resources/2020/3/16/15843460852776294.jpg?x-oss-process=image/resize,m_pad,w_324,h_324,limit_0,color_ffffff" alt=""></a>
+                        <p><a href="#" >HARDEN DRIVE GU 篮球运动短袖</a></p>
+                        <span>¥249</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="https://img.adidas.com.cn/resources/2020/3/16/15843455291207346.jpg?x-oss-process=image/resize,m_pad,w_324,h_324,limit_0,color_ffffff" alt=""></a>
+                        <p><a href="#" >JACKET FIORUCCI 联名系列运动茄克外套</a></p>
+                        <span>¥1299</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="https://img.adidas.com.cn/resources/2020/5/13/15893678908843070.jpg?x-oss-process=image/resize,m_pad,w_324,h_324,limit_0,color_ffffff" alt=""></a>
+                        <p><a href="#" >PureBOOST GO 跑步鞋</a></p>
+                        <span>¥1099</span>
+                    </li>
+                    <li>
+                        <a href="#"><img src="https://img.adidas.com.cn/resources/2020/3/27/15852959382486540.jpg?x-oss-process=image/resize,m_pad,w_324,h_324,limit_0,color_ffffff" alt=""></a>
+                        <p><a href="#" >ZX 750 HD 经典运动鞋</a></p>
+                        <span>¥829</span>
+                    </li>     
+                </ul>
+                <span class="iconfont BtoLeft theBest_span theBest_opacity">&#xe612;</span>
+                <span class="iconfont BtoRight theBest_span">&#xe611;</span>
+                <div class="theBest_points theBest_points1">
+                    <span class="tb_span">
+                        <i class="tb_span_i tb_span_opciaty"></i>
+                    </span>
+                    <span class="tb_span">
+                        <i class="tb_span_i"></i>
+                    </span>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- 底部 -->
+    <footer>
+        <div>
+            <ul class="icon">
+                <li>
+                    <div class="help"></div>
+                    <div class="help-text">
+                        <h5>获取帮助</h5>
+                        <p>联系我们</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="query"></div>
+                    <div class="query-text">
+                        <h5>防伪查询</h5>
+                        <p>输入查询码</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="sale"></div>
+                    <div class="sale-text">
+                        <h5>售后服务</h5>
+                        <p>使用说明</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="buy"></div>
+                    <div class="buy-text">
+                        <h5>团购服务</h5>
+                        <p>联系我们</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="agency"></div>
+                    <div class="agency-text">
+                        <h5>校园代理</h5>
+                        <p>招募中</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="line"></div>
+        <div class="warning">
+            <span>
+				温馨提示：近日有不法分子冒充naisi官方客服人员进行电话诈骗，请您提高警惕，注意保护个人账户信息，切勿泄漏他人。如遇类似问题，
+				请勿回拨来电号码，直接拨打naisi客服电话114查询。
+            </span>
+            <div>
+                <span>沪ICP备14035278号-2</span>
+            </div>
+            <div>
+                <span>成都王山而体育用品电子商务有限公司 ©404</span>
+            </div>
+        </div>
+        <div class="introduce">
+            <ul>
+                <li>关于李宁</li>
+                <li>法律声明</li>
+                <li>投资者关系  Investor Relations</li>
+                <li>特许经营</li>
+                <li>合作伙伴</li>
+                <li class="one">客服热线</li>
+            </ul>
+        </div>
+        <div class="police">
+            <!-- <img src="./images/ba.png" alt=""> -->
+        </div>
+    </footer>
+    <script src="js/Adidas_index.js"></script>
+    <script>
+        let showUsername=document.querySelector('.username')
+        let username=localStorage.getItem('username')
+        showUsername.innerHTML=username
+    </script>
+</body>
+</html>

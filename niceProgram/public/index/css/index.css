@@ -1,0 +1,577 @@
+*{  
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    position: relative;
+    z-index: -1;
+    background-color: #666;
+    overflow-x: hidden;
+}
+header{
+    height: 150px;
+    text-align: center;
+    /* margin-bottom: 40px; */
+}
+header .logo{
+    border-bottom: 1px solid #c4c4c4;
+}
+header .logo img{
+    height: 80px;
+}
+header .menu {
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px auto 0;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+header .menu>ul{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+header .menu>ul>li{
+    /* width: 160px; */
+    width: 10%;
+    height: 50px;
+    margin-right: 10px;
+    line-height: 50px;
+    text-align: left;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center; 
+}
+header .menu ul .fashion-icon{
+    transition: 0.5s;
+}
+header .menu ul .rotate{
+    transform: rotateZ(-90deg);
+}
+header .menu ul .fashion{
+    position: relative;
+}
+header .menu ul .fashion .kinds{
+    position: absolute;
+    left: 20px;
+    top: 50px;
+    text-align: left;
+    background-color: salmon;
+    z-index: 99999;
+}
+header .menu ul .fashion .kinds li{
+    width: 160px;
+    height: 25px;
+    margin: 10px;
+    line-height: 25px;
+}
+header .menu ul .fashion .kinds li a{
+    color: white;
+}
+.shequa{
+    color: white;
+    
+}
+.shequa:hover{
+    color: white;
+    text-decoration: none;
+}
+.vanish{
+    display: none;
+}
+
+.main{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.main .fashion-banner{
+    position: relative;
+    z-index: -1;
+}
+
+.main .banner{
+    height: 527px;
+    position: relative;
+    overflow: hidden;
+    /* outline: 1px solid red; */
+}
+
+.main .banner .pic{
+    width: 600%;
+    /* height: 445px; */
+}
+
+.main .banner .pic .box{
+    width: 100%;
+    height: 704px;
+    position: absolute;
+    transition: 0.5s;
+}
+
+.main .banner img{
+    width: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.main .fashion-banner .left{
+    width: 50px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    position: absolute;
+    top: calc(50% - 25px);
+    left: -70px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.main .fashion-banner .right{
+    width: 50px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    position: absolute;
+    top: calc(50% - 25px);
+    right: -70px;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.main .summer h2{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.main .summer .goods{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.main .summer .goods .item{
+    width: 50%;
+    cursor: pointer;
+}
+
+.main .summer .goods img{
+    width: 100%;
+    transition: 0.3s;
+}
+.main .summer .goods img:hover{
+    transform: scale(1.1);
+}
+
+.main .recommend .choose select{
+    width: 110px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: #666;
+    color: white;
+}
+.main .recommend .choose option{
+    background: white;
+    color: black;
+    border: 1px solid red;
+    outline: none;
+    border-style: none;
+}
+.main .recommend .choose option:hover{
+    background: #000;
+}
+.main .recommend h2{
+    text-align: center;
+}
+
+.main .recommend .photo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.main .recommend .photo .group{
+    width: 30%;
+    cursor: pointer;
+    position: relative;
+}
+.main .recommend .photo .group img{
+    width: 100%;
+}
+.main .recommend .photo .group .mask-layer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: 0.3s;
+    color: white;
+}
+.main .recommend .photo .group .mask-layer h4{
+    margin: 120px 100px 20px;
+    font-size: 25px;
+}
+.main .recommend .photo .group .mask-layer p{
+    margin: 20px 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main .recommend .photo .group:hover .mask-layer{
+    opacity: 1;
+}
+
+.main .about h2{
+    text-align: center;
+    font-size: 30px;
+}
+.main .about .culture{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+.main .about .case{
+    text-align: center;
+    overflow: hidden;
+}
+.main .about .case:hover img{
+    transform: scale(1);
+}
+.main .about .case>div{
+    width: 100%;
+    height: 215px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.main .about .case>div img{
+    /* width: 239px; */
+    height: 215px;
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+.main .about .case span{
+    width: 237px;
+    height: 48px;
+    display:block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 15px;
+
+    line-height: 24px;
+    overflow: hidden;
+	text-overflow: ellipsis;
+	display:-webkit-box;
+	-webkit-line-clamp:2;/*在第二行显示...*/
+	-webkit-box-orient: vertical;
+}
+.main .about .case p{
+    width: 237px;
+    height: 70px;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 14px;
+    color: #666;
+}
+footer{
+    height: 350px;
+    padding-top: 60px;
+    background-color: white;
+    position: relative;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .icon li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer ul li .help{
+    width: 46px;
+    height: 46px;
+    margin: 6px 16px 6px 14px;
+    background-image: url('../../images/footer.png');
+    background-position: 0px 0px;
+    cursor: pointer;
+}
+footer ul li .query{
+    width: 46px;
+    height: 46px;
+    margin: 6px 16px 6px 14px;
+    background-image: url('../../images/footer.png');
+    background-position: -47px 0px;
+}
+footer ul li .sale{
+    width: 46px;
+    height: 46px;
+    margin: 6px 16px 6px 14px;
+    background-image: url('../../images/footer.png');
+    background-position: -94px 0px;
+}
+footer ul li .buy{
+    width: 46px;
+    height: 46px;
+    margin: 6px 16px 6px 14px;
+    background-image: url('../../images/footer.png');
+    background-position: -141px 0px;
+}
+footer ul li .agency{
+    width: 46px;
+    height: 46px;
+    margin: 6px 16px 6px 14px;
+    background-image: url('../../images/footer.png');
+    /* background-position: -141px 0px; */
+}
+footer ul li div:nth-of-type(2){
+    border-left: 1px solid #2a2a26;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+footer ul li h5{
+    margin: 0;
+    width: 95px;
+    height: 26px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+footer ul li p{
+    margin: 0;
+    margin-left: 20px;
+    font-size: 12px;
+}
+footer .line{
+    width: 45%;
+    height: 1px;
+    background-color: #e4e4e4;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+footer .warning{
+    text-align: center;
+    font-size: 12px;
+    color: rgb(150,148,146);
+}
+footer .warning>div{
+    margin-top: 10px;
+}
+footer .introduce ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .introduce ul li{
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid rgb(77,77,77);
+    color: #969492;
+    font-size: 12px;
+}
+footer .introduce ul .one{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer .police{
+    position: absolute;
+    right: 20%;
+    bottom: 10px;
+}
+
+.cover-box .cover{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.4);
+    filter: alpha(opacity=90);
+    opacity: 0.9;
+    z-index: 999999;
+}
+
+.cover-box .model{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    position: fixed;
+    top: calc(50% - 250px);
+    left: calc(50% - 250px);
+    z-index: 999999999;
+}
+.cover-box .model h2{
+    text-align: center;
+}
+
+.cover-box .model .input>div{
+    margin: 0 auto;
+    margin-top: 20px;
+    /* text-align: center; */
+}
+.cover-box .model .input>div>span{
+    width: 100px;
+}
+.cover-box .model .input .but-login{
+    width: 100px;
+    height: 50px;
+    border-style: none;
+    outline: none;
+    background-color: salmon;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+}
+.cover-box .model .input .sign{
+    position: absolute;
+    z-index: 9999999999;
+    top: 7px;
+    right: -10%;
+}
+.cover-box .model .input .sign .ok{
+    color: green;
+}
+.cover-box .model .input .sign .remove{
+    color: red;
+}
+.cover-box .model .input .go{
+    cursor: pointer;
+}
+.cover-box .model .close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+ 
+
+
+.cover-box .model .in>div{
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cover-box .model .in>div>span{
+    width: 100px;
+}
+.cover-box .model .in .but-landing{
+    width: 100px;
+    height: 50px;
+    border-style: none;
+    outline: none;
+    background-color: salmon;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+
+.hint{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+.hint .close{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: calc(50% - 10px);
+    right: 50px;
+    color: white;
+}
+
+@media screen and (max-width: 1200px){
+    .none{
+        display: none;
+    }
+    .main .fashion-banner .left{
+        top: 90px;
+    }
+    .main .fashion-banner .right{
+        top: 90px;
+    }
+}
+@media screen and (min-width: 1200px){
+    .none{
+        display: block;
+    }
+}
+
+.cover-box-email .coer-email{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0,0.4);
+    filter: alpha(opacity=90);
+    opacity: 0.9;
+    z-index: 999999;
+}
+
+.cover-box-email .coer-email .model-email{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    position: fixed;
+    top: calc(50% - 250px);
+    left: calc(50% - 250px);
+    z-index: 999999999;
+    text-align: center;
+}
+.cover-box-email .coer-email .model-email .suggest{
+    width: 80%;
+    height: 60%;
+}
+
+.cover-box-email .coer-email .model-email button{
+    border-style: none;
+    background-color: salmon;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+.cover-box-email .coer-email .model-email .close{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}

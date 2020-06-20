@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    transition: 0.2s;
+}
+body{
+    overflow-y:hidden ;
+    transition: 0.2s;
+}
+.main{
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+header .main .head-up{
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .main .head-up .logo{
+    cursor: pointer;
+}
+header .main .head-up .relation{
+    /* width: 272px; */
+    /* height: 241px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+header .main .head-up .relation>div{
+    width: 51px;
+    height: 51px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+header .main .head-up .relation img{
+    width: 51px;
+    height: 51px;
+}
+header .main .head-up .relation .wechat:hover{
+    color: red;
+}
+header .main .head-down{
+    width: 156px;
+    padding: 0 10px;
+    text-align: center;
+    cursor: pointer;
+}
+header .main .head-down .open{
+    overflow: hidden;
+}
+header .main .head-down img{
+    height: 59px;
+    
+}
+header .main .head-down .item{
+    height: 0;
+    transition: 0.3s;
+    border: 0px solid #e6e9ed;
+    border-radius: 10px;
+    /* eee */
+    background-color: rgba(238,238,238,0.3); 
+}
+header .main .head-down .item ul li{
+    height: 38px;
+    font-weight: bold;
+    line-height: 38px;
+}
+.one{
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/kappa1.jpg');
+    background-size: cover;
+}
+.two{
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/kappa2.jpg');
+    background-size: cover;
+}
+.three{
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/kappa3.jpg');
+    background-size: cover;
+}
+.four{
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/kappa4.jpg');
+    background-size: cover;
+}
+.list ul li{
+    width: 15px;
+    height: 15px;
+    border: 1px solid white;
+    background-color: rgba(238,238,238,0.3);
+    position: fixed;
+    right: 50px;
+    border-radius: 50%;
+}
+.list ul .first{
+    top: calc(50% + 40px);
+}
+.list ul .second{
+    top: 50%;
+}
+.list ul .third{
+    top: calc(50% - 40px);
+}
+.list ul .fourth{
+    top: calc(50% - 80px);
+}
+.choose{
+    background-color: white !important; 
+}
+
+.shequa{
+    color: black;
+    text-decoration: none;
+}
+.shequa:hover{
+    color: black;
+    text-decoration: none;
+}

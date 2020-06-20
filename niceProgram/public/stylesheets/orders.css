@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.flex{ 
+    position: sticky;
+    top: 100px;
+    left: 1200px;
+    z-index: 888;
+}
+.flex1{ 
+    position: sticky;
+    top: 0px;
+    z-index: 888;
+}
+
+.main {
+    width: 100%;
+    height: 900px;
+    position: relative;
+}
+.main .chat{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+}
+.main .chat i{
+    font-size: 48px;
+    color: rgba(0,0,0,0.5);
+}
+
+.dispaly-inb {
+    display: inline-block;
+}
+
+.main .contain {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.main .header {
+    width: 100%;
+    height: 70px;
+    color: white;
+    background-color: rgba(0, 0, 0, 1 );
+}
+.main .header .logo{
+    width: 185px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 900;
+    float: left;    
+}
+.main .header .logo img{
+    width: 100%;
+    height: 100%;
+}
+.main .header .nav{
+    width: 300px;
+    height: 70px;
+    line-height: 70px;
+    /* background-color: red; */
+    float: right;
+}
+.main .header .nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .header .nav ul li{
+    width: 33.33%;
+    text-align: center;
+    display: inline-block;
+}
+
+.main .inner {
+    width: 100%;
+    height: 100px;
+    /* background-color: pink; */
+}
+
+.main .inner .inner-head .title {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.main .inner .inner-head .title a {
+    width: 300px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+.main .inner .inner-head .dot {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+
+.main .inner .inner-head .dot ul {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .inner .inner-head .dot ul li {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+    position: relative;
+    margin: 0px 55px;
+}
+
+.main .inner .inner-head .dot ul li:first-child {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.main .inner .inner-head .dot ul .item::after {
+    content: '';
+    position: absolute;
+    top: 52%;
+    left: 120%;
+    width: 500%;
+    border: 1px dotted #494949;
+}
+
+.main .inner .inner-main .buy .title {
+    margin: 20px;
+}
+
+.main .inner .inner-main .buy ul .item {
+    width: 100%;
+    height: 220px;
+    /* background-color: rgba(0, 0, 0, 0.1); */
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.main .inner .inner-main .buy ul .item .item-head {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden;
+}
+
+.main .inner .inner-main .buy ul .item .item-head #del {
+    float: right;
+}
+
+.main .inner .inner-main .buy ul .item .item-body {
+    overflow: hidden;
+}
+
+.main .inner .inner-main .buy ul .item .item-body .goods-img {
+    width: 160px;
+    height: 160px;
+    display: inline-block;
+    /* background-color: rgba(0, 0, 0, 1); */
+}
+
+.main .inner .inner-main .buy ul .item .item-body .goods-detil {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 50px;
+}
+
+.main .inner .inner-main .buy ul .item .item-body .goods-detil h4 {
+    font-size: 24px;
+}
+
+.main .inner .inner-main .buy ul .item .item-body .goods-detil h4 a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+}
+
+.main .inner .inner-main .buy ul .item .item-body .goods-detil p {
+    margin: 10px;
+}
+
+.main .inner .inner-main .buy ul .item .item-body .goods-price {
+    height: 100%;
+    vertical-align: top;
+    float: right;
+}
+
+.main .inner .inner-main .buy ul .item .item-body .goods-price .price {
+    text-align: center;
+    color: red;
+    font-weight: 900;
+}
+
+.main .inner .inner-main .buy ul .item .item-body .goods-price .goods-num {
+    display: inline-block;
+}
+
+.main .inner .inner-main .buy ul .item .item-body .goods-price .goods-num #goodNum {
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid black;
+    margin: 10px 5px;
+}
+.main .inner .inner-main .zongji{
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    color: black;
+    padding:0px 20px;
+}
+.main .inner .inner-main .zongji p{
+    font-weight: 900;
+}
+.main .contain .zhifu ul .item{
+    width: 100px;
+    margin: 10px;
+}
+.main .contain .zhifu ul .item:first-child{
+    display: inline-block;
+}
+.main .contain .zhifu ul .item:nth-of-type(2){
+    display: inline-block;
+}
+.main .contain .zhifu ul .item img{
+    height: 30px;
+}
+.main .contain .lunbo{
+    width: 100%;
+    height: 200px;
+    background-color: red;
+}
+.main .bottom{
+    width: 100%;
+    height: 80px;
+    background-color:black;
+}
+.main .bottom ul{
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding:0px 20px;
+}
+.main .bottom ul .item{
+    color: white;
+    margin: 0px 20px;
+}

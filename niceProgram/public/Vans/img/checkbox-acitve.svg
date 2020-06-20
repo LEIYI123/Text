@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="367.2px" height="367.2px" viewBox="0 0 367.2 367.2" enable-background="new 0 0 367.2 367.2" xml:space="preserve">
+<g id="checkbox-acitve">
+	<rect id="BG_white" x="0" y="0" fill="#FFFFFF" width="367.2" height="367.2"/>
+	<path id="check_box_inactive" fill="#D0D1D1" d="M367.2,367.2H0V0h367.2V367.2z M20.399,346.799h326.4v-326.4h-326.4V346.799z"/>
+	<path id="chooce" fill="#CB1B2C" d="M299.879,126.479l-28.561-28.56c-4.08-4.079-10.201-4.079-14.279,0L163.2,191.76l-51-51
+		c-4.08-4.08-10.2-4.08-14.28,0l-28.56,28.56c-2.04,2.04-2.04,4.079-2.04,8.159s2.04,6.121,2.04,8.16l85.68,85.68
+		c2.04,2.041,4.08,2.041,8.16,2.041c2.04,0,6.12,0,8.16-2.041L301.92,140.76c2.039-2.041,2.039-4.08,2.039-8.16
+		S301.92,128.52,299.879,126.479z"/>
+</g>
+</svg>

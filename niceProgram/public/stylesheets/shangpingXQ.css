@@ -1,0 +1,342 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.flex{ 
+    position: sticky;
+    top: 100px;
+    left: 1200px;
+    z-index: 888;
+}
+.flex1{ 
+    position: sticky;
+    top: 0px;
+    z-index: 888;
+}
+
+.main {
+    width: 100%;
+    position: relative;
+}
+.main .chat{
+    width: 100px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.5);
+}
+.main .chat i{
+    font-size: 48px;
+    color: rgba(0,0,0,0.5);
+}
+
+.dispaly-inb {
+    display: inline-block;
+}
+
+.main .contain {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.main .header {
+    width: 100%;
+    height: 70px;
+    color: white;
+    z-index: 8;
+    background-color: rgba(0, 0, 0, 1 );
+}
+.main .header .logo{
+    width: 185px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 900;
+    float: left;    
+}
+.main .header .logo a{
+    text-decoration: none;
+    color: white;
+}
+.main .header .logo img{
+    width: 100%;
+    height: 100%;
+}
+.main .header .nav{
+    width: 300px;
+    height: 70px;
+    line-height: 70px;
+    /* background-color: red; */
+    float: right;
+}
+.main .header .nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .header .nav ul li{
+    width: 33.33%;
+    text-align: center;
+    display: inline-block;
+}
+
+.main .contain .inner {
+    width: 100%;
+    height: 100px;
+}
+
+.main .contain .inner .inner-head .title {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.main .contain .inner .inner-head .title a {
+    width: 300px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+.main .contain .inner .xiangqing{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.main .contain .inner .xiangqing .xiangqing-left{
+    width: 60%;
+    height: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+}
+.main .contain .inner .xiangqing .xiangqing-left .lunbo{
+    width: 55px;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.main .contain .inner .xiangqing .xiangqing-left .lunbo .jiantou{
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: white;
+    z-index: 2;
+}
+.main .contain .inner .xiangqing .xiangqing-left .lunbo .top{
+    position: absolute;
+    top: 0%;
+}
+.main .contain .inner .xiangqing .xiangqing-left .lunbo .down{
+    position: absolute;
+    bottom: 0%;
+}
+.main .contain .inner .xiangqing .xiangqing-left .lunbo .inner{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 55px;
+    transition: 1s;
+}
+.main .contain .inner .xiangqing .xiangqing-left .lunbo .inner .item{
+    width: 100%;
+    height: 55px;
+    box-sizing: border-box;
+    border: 1px solid gainsboro;
+}
+.main .contain .inner .xiangqing .xiangqing-left .lunbo .inner .item img{
+    width: 100%;
+    height: 100%;
+}
+.main .contain .inner .xiangqing .xiangqing-left .metail{
+    width: 71%;
+    height: 100%;
+    /* overflow: hidden; */
+    position: relative;
+}
+.main .contain .inner .xiangqing .xiangqing-left .metail .xiaotu{
+    position: relative;
+}
+.main .contain .inner .xiangqing .xiangqing-left .metail .xiaotu .box{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0,0,0,0.1);
+    position: absolute;
+    display: none;
+    position: absolute;
+    left: 0px;
+}
+.main .contain .inner .xiangqing .xiangqing-left .metail img{
+    width: 100%;
+    height: 100%;
+}
+.main .contain .inner .xiangqing .xiangqing-left .metail .datu{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0px;
+    left: 100%;
+    z-index: 2;
+    margin-left: 10px;
+    /* overflow: hidden; */
+    /* display: none; */
+    background-size: 700px;
+    background-image: url("https://img.adidas.com.cn/resources/2020/3/31/15856366337291527.jpg?x-oss-process=image/resize,m_pad,w_500,h_500,limit_0,color_ffffff");
+    /* background-position-x: 0px;
+    background-position-y: 0px; */
+    background-repeat: no-repeat;
+}
+
+.main .contain .inner .xiangqing .xiangqing-right{
+    width: 38%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+.main .contain .inner .xiangqing .xiangqing-right .goods-title,.main .contain .inner .xiangqing .xiangqing-right .star{
+    margin: 10px 0px;
+}
+.main .contain .inner .xiangqing .xiangqing-right .choose-size{
+    width: 80%;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid black;
+    position: relative;
+    padding: 5px;
+    margin: 5px 0px;
+}
+.main .contain .inner .xiangqing .xiangqing-right .choose-size i{
+    font-size: 28px;
+    position: absolute;
+    right: 10px;
+}
+.main .contain .inner .xiangqing .xiangqing-right .choose-buy{
+    width: 80%;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid black;
+    position: relative;
+    padding: 5px;
+    margin: 5px 0px;
+}
+.main .contain .inner .xiangqing .xiangqing-right .choose-car{
+    width: 80%;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid black;
+    position: relative;
+    padding: 5px;
+    margin: 5px 0px;
+}
+.main .contain .inner .xiangqing .xiangqing-right .free-freight{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main .contain .inner .xiangqing .xiangqing-right .price-explain{
+    color: rgba(0, 0, 0, 0.6 );
+    margin: 10px 0px;
+    font-size: 12px;
+}
+.main .contain .inner .xiangqing .xiangqing-right .goods-price{
+    color: red;
+    font-weight: 900;
+}
+
+.main .contain .inner .bottom{
+    width: 100%;
+    height: 80px;
+    background-color:black;
+}
+.main .contain .inner .bottom ul{
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding:0px 20px;
+}
+.main .contain .inner .bottom ul .item{
+    color: white;
+    margin: 0px 20px;
+}
+.main .contain .inner .xiangqing .xiangqing-right .goods-color ul #itemColor a img{
+    width: 100px;
+    height: 100px;
+}
+.main .contain .inner .xiangqing .xiangqing-right .goods-title{
+    width: 300px;
+    height: 50px;
+}
+.main .contain .inner .xiangqing .xiangqing-right .goods-title p{
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+@media screen and (max-width: 1200px){
+    .main .contain{
+        width: 1024px;
+    }
+    .main .contain .inner .xiangqing{
+        height: 500px;
+    }
+    .main .header .nav{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .main .contain{
+        width: 980px;
+    }
+}
+@media screen and (max-width: 980px){
+    .main .contain{
+        width: 880px;
+    }
+}
+
+@media screen and (max-width: 880px){
+    .main .contain{
+        width: 780px;
+    }
+    .main .contain .inner .xiangqing{
+        height: 600px;
+    }
+    .main .header .nav{
+        width: 200px;
+    }
+}
+@media screen and (max-width: 780px){
+    .main .contain{
+        width: 680px;
+    }
+}
+@media screen and (max-width: 680px){
+    .main .contain{
+        width: 580px;
+    }
+}
+@media screen and (max-width: 580px){
+    .main .contain{
+        width: 480px;
+    }
+}
+

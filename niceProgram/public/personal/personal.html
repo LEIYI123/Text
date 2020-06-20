@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>个人中心</title>
+		<link rel="stylesheet" type="text/css" href="css/personal.css"/>
+	</head>
+	<body>
+		<div class="set">
+			<div class="sethed">
+				<div class="logo">
+					<img src="../MINISO/img/timg.png" >
+				</div>
+				<div class="setyh"><span class="user">鬼马</span>&nbsp;&nbsp;&nbsp;欢迎您！</div>
+				<ul class="setyou">
+					<li class="setyou1"><a href="../index.html">NAISI首页</a></li>
+					<li class="setyou2">购物车</li>
+					<li class="setyou3">商品页面</li>
+					<li class="setyou3">关于我们</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="head">
+			<div class="tx"></div>
+			<div class="mizi"><span class="yhmz user">鬼马</span></div>
+			<h1 class="gr">NAISI&nbsp;个人中心</h1>
+			<div class="zh">账户设置</div>
+			<div class="wd">我的钱包</div>
+		</div>
+		
+		<div class="chaopaitj">
+			<div class="chaopaitj-1"></div>
+			<div class="chaopaitj-2">潮牌推荐</div>
+		</div>
+		<div class="chaopai">
+			<div class="chaopai1">
+				<div class="kappa1"><a href="../Adidas/Adidas_index.html"><img src="img/2.png" ></a></div>
+				<div class="kappa2"><img src="img/logo1.png" ></div>
+			</div>
+			<div class="chaopai2">
+				<div class="kappa1"><a href="../converse/converse.html"><img src="img/4.png" ></a></div>
+				<div class="kappa2"><img src="img/logo2.jpg" ></div>
+				
+			</div>
+			<div class="chaopai3">
+				<div class="kappa1"><a href="../Vans/Vans.html"><img src="img/3.png" ></a></div>
+				<div class="kappa2"><img src="img/万斯.jpg" ></div>
+			</div>
+			<div class="chaopai4">
+				<div class="kappa1"><a href="../Puma/Puma_index.html"><img src="img/5.png" ></a></div>
+				<div class="kappa2"><img src="img/PUMA.png" ></div>
+				
+			</div>
+			<div class="chaopai5">
+				<div class="kappa1"><a href="../xetp/xetp.html"><img src="img/6.png" ></a></div>
+				<div class="kappa2"><img src="img/特步.jpg" ></div>
+			</div>
+			<div class="chaopai6">
+				<div class="kappa1"><a href="../kappa/kappa.html"><img src="img/1.png" ></a></div>
+				<div class="kappa2"><img src="img/kappa.jpg" ></div>
+				
+			</div>
+			<div class="chaopai7">
+				<div class="kappa1"><a href="../MINISO/MINISO.html"><img src="img/8.png" ></a></div>
+				<div class="kappa2"><img src="../MINISO/img/MNlogo1.png" ></div>
+			</div>
+		</div>
+		
+		
+		<footer>
+		    <div>
+		        <ul class="icon">
+		            <li>
+		                <div class="help"></div>
+		                <div class="help-text">
+		                    <h5>获取帮助</h5>
+		                    <p>联系我们</p>
+		                </div>
+		            </li>
+		            <li>
+		                <div class="query"></div>
+		                <div class="query-text">
+		                    <h5>防伪查询</h5>
+		                    <p>输入查询码</p>
+		                </div>
+		            </li>
+		            <li>
+		                <div class="sale"></div>
+		                <div class="sale-text">
+		                    <h5>售后服务</h5>
+		                    <p>使用说明</p>
+		                </div>
+		            </li>
+		            <li>
+		                <div class="buy"></div>
+		                <div class="buy-text">
+		                    <h5>团购服务</h5>
+		                    <p>联系我们</p>
+		                </div>
+		            </li>
+		            <li>
+		                <div class="agency"></div>
+		                <div class="agency-text">
+		                    <h5>校园代理</h5>
+		                    <p>招募中</p>
+		                </div>
+		            </li>
+		        </ul>
+		    </div>
+		    <div class="line"></div>
+		    <div class="warning">
+		        <span>
+					温馨提示：近日有不法分子冒充naisi官方客服人员进行电话诈骗，请您提高警惕，注意保护个人账户信息，切勿泄漏他人。如遇类似问题，
+					请勿回拨来电号码，直接拨打naisi客服电话114查询。
+		        </span>
+		        <div>
+		            <span>沪ICP备14035278号-2</span>
+		        </div>
+		        <div>
+		            <span>成都王山而体育用品电子商务有限公司 ©404</span>
+		        </div>
+		    </div>
+		    <div class="introduce">
+		        <ul>
+		            <li>关于李宁</li>
+		            <li>法律声明</li>
+		            <li>投资者关系  Investor Relations</li>
+		            <li>特许经营</li>
+		            <li>合作伙伴</li>
+		            <li class="one">客服热线</li>
+		        </ul>
+		    </div>
+		    <div class="police">
+		        <img src="./images/ba.png" alt="">
+		    </div>
+		</footer>
+	</body>
+	<script>
+		var user = document.querySelectorAll('.user')
+
+
+		var username = localStorage.getItem('username')
+
+
+		// console.log(user[0])
+		user[0].innerHTML = username
+		user[1].innerHTML = username
+	</script>
+</html>
