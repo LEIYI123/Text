@@ -7,13 +7,17 @@ li{
     list-style: none;
 }
 .warp{
-    height: 70px;
-    line-height: 70px;
+    height: 100px;
+    line-height: 100px;
     background: rgba(250,250,252);
 }
 .warp .contarinar{
     display: flex;
     justify-content: space-around;
+}
+.warp .contarinar .right{
+    height: 50px;
+    width: 80px;
 }
 .contarinar{
     width: 1200px;
@@ -33,7 +37,7 @@ li{
     font-weight: bold;
 }
 .login img{
-    width: 150px;
+    width: 200px;
 }
 .btn{
     background: rgb(255,23,134);

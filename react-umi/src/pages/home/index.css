@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+.warp .containar{
+    width: 1200px;
+    margin: auto;
+}
+.warp .top{
+    margin-top: 24px;
+}
+.warp .top h1{
+    font-weight: bold;
+}
+.warp .top p{
+    font-size: 16px;
+}
+.warp .top .but{
+    margin: auto;
+    width: 400px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-around;
+}
+.warp .top .top_cont img{
+    width: 1000px;
+}
+.warp .product .product_right{
+    float: left;
+}
+.warp .product .product_left{
+    float: right;
+}
+.warp .product .product_right li{
+    text-align: left;
+}
+.warp .product .product_left li{
+    text-align: right;
+}
+.warp .product img{
+    width: 50px;
+    height: 50px;
+}
+.warp .product li{
+    margin-bottom: 54px;
+}
+.warp .product .product_right img{
+    margin-right: 20px;
+}
+.warp .product .product_left img{
+    margin-left: 20px;
+}
+.warp .product{
+    width: 1000px;
+    margin: auto;
+}
+.warp .product span{
+    position: relative;
+    display: inline-block;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.warp .product .product_right span::before{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    background: rgb(255,23,134);
+    margin-top: 34px
+}
+.warp .product .product_left span::after{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    background: rgb(255,23,134);
+    margin-top: 34px;
+    margin-left: -50px;
+}
+.warp .product h2{
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.warp .product h2::before{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 3px;
+    background: rgb(255,23,134);
+    margin-left: 30px;
+    margin-top: -10px;
+}
+.warp .product .product_trait{
+    width: 1000px;
+    height: 500px;
+    background: url(../../assets/01首页/组6.png) no-repeat;
+    background-position: center;
+}
+.warp .partner{
+    width: 1000px;
+    margin: auto;
+    margin-top: 72px;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+.warp .partner img{
+    width: 430px;
+}
+.warp .partner div{
+    margin-top: 60px;
+}
+.warp .partner h2{
+    font-weight: bold;
+}
+.warp .partner h2::before{
+    content: '';
+    position: absolute;
+    width: 35px;
+    height: 3px;
+    background: rgb(255,23,134);
+    margin-top: -20px;
+}

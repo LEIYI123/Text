@@ -1,8 +1,23 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import style from './_layout.css'
-import { Button, Divider, BackTop } from 'antd';
+import { Button, Divider, Modal } from 'antd';
+import LoginRegisterBox from '../../../commponts/login/LoginRegisterBox.js'
+import router from 'umi/router';
 
-const appcount = (props) => {
+const Appcount = (props) => {
+    const [visible, setVisible] = useState(false)
+    let showModal = () => {
+        setVisible(true)
+    }
+    let hideModal = () => {
+        setVisible(false)
+    };
+    let home =()=>{
+        router.push('/home')
+    }
+    let casebg =()=>{
+        router.push('/home/case')
+    }
     return (
         <>
             <div className={style.warp}>
@@ -12,8 +27,8 @@ const appcount = (props) => {
                     </div>
                     <div className={style.cent}>
                         <ul>
-                            <li>首页</li>
-                            <li>作品案例</li>
+                            <li onClick={home}>首页</li>
+                            <li onClick={casebg}>作品案例</li>
                             <li>原件库</li>
                             <li>动画学院</li>
                             <li>创作者招募</li>
@@ -22,7 +37,19 @@ const appcount = (props) => {
                         </ul>
                     </div>
                     <div className={style.right}>
-                        <Button type="primary" size='large' className={style.btn}>登录</Button>
+                        <Button type="danger" block={true} onClick={showModal}>登录</Button>
+                        <Modal
+                            bodyStyle={{ padding: 0 }}
+                            title={null}
+                            width={400}
+                            centered={true}
+                            closable={false}
+                            visible={visible}
+                            footer={null}
+                            onCancel={hideModal}
+                        >
+                            <LoginRegisterBox />
+                        </Modal>
                     </div>
                 </div>
             </div>
@@ -55,12 +82,9 @@ const appcount = (props) => {
                 </div>
                 <Divider dashed />
                 <p>Copyright 2018. All right reserved. Powered by Aiquwukeiji. Designed by ManTou</p>
-                <BackTop>
-                    <div style={style}></div>
-                </BackTop>
             </footer>
         </>
     );
 }
 
-export default appcount;
+export default Appcount;
