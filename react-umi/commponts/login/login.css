@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.register{
+    width: 250px;
+    margin: auto;
+    text-align: center;
+}
+.register>img{
+    margin-top: 30px;
+    width: 200px;
+}
+.register .from{
+    width: 250px;
+    margin-top: 60px;
+    font-size: 16px;
+}
+.register .from div{
+    width: 250px;
+}
+.login .actions{
+    width: 200px;
+    margin: auto;
+}
+.login .actions img{
+    width: 30px;
+}
+.login .actions div{
+    text-align: center;
+}
+.login .actions .bottom{
+    display: flex;
+    justify-content: space-around;
+}
+.register .weixing{
+    margin-top: 60px;
+}
+.login .actions .active{
+    display: none;
+}
